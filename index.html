@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Инструкции по оборудованию</title>
+<style>
+:root { --fg:#111; --muted:#6b7280; --line:#e5e7eb; --bg:#fff; --accent:#0f6fb8; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.55 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+.wrap { max-width:760px; margin:0 auto; padding:18px 18px 56px; }
+a.back { display:inline-block; color:var(--muted); text-decoration:none; font-size:15px; margin-bottom:10px; }
+h1 { font-size:24px; line-height:1.25; margin:0 0 16px; }
+h3 { font-size:17px; margin:24px 0 6px; color:var(--accent); }
+p { margin:0 0 12px; }
+ol { margin:0 0 12px; padding-left:22px; }
+li { margin-bottom:8px; }
+table { border-collapse:collapse; width:100%; margin:12px 0; font-size:15px; }
+td, th { border:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; }
+th { background:#f8fafc; }
+footer { color:var(--muted); font-size:13px; margin-top:34px; border-top:1px solid var(--line); padding-top:12px; }
+ul.list { list-style:none; padding:0; margin:16px 0 30px; border-top:1px solid var(--line); }
+ul.list li { border-bottom:1px solid var(--line); }
+ul.list a { display:flex; justify-content:space-between; gap:12px; padding:13px 2px; color:var(--fg); text-decoration:none; }
+ul.list a:hover { color:var(--accent); }
+ul.list .go { color:var(--muted); }
+input[type=search] { width:100%; padding:12px 14px; font-size:16px; border:1px solid var(--line); border-radius:10px; outline:none; }
+input[type=search]:focus { border-color:var(--accent); }
+header p { color:var(--muted); margin:0 0 18px; font-size:15px; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#e8e8e8; --muted:#9aa3ad; --line:#2a2f36; --bg:#14171a; --accent:#6cb6f0; }
+  th { background:#1b2026; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Инструкции по оборудованию</h1>
+<header><h1>Инструкции по оборудованию</h1><p>Наведите камеру телефона на QR-код прибора — откроется нужная инструкция.</p><input type="search" id="q" placeholder="Поиск по названию…" autocomplete="off"></header>
+<ul class="list" id="list">
+<li><a href="neopuff.html"><span class="nm">Neopuff (Fisher &amp; Paykel)</span><span class="go">›</span></a></li>
+<li><a href="uzi-logiq-e.html"><span class="nm">УЗИ-аппарат LOGIQ e (GE Healthcare)</span><span class="go">›</span></a></li>
+<li><a href="apparat-rp1.html"><span class="nm">Аппарат РП1 «БФА»</span><span class="go">›</span></a></li>
+<li><a href="aerozol-detro.html"><span class="nm">Аэрозоль Detro air spray</span><span class="go">›</span></a></li>
+<li><a href="vesy.html"><span class="nm">Весы ВЭНд-01 «Малыш»</span><span class="go">›</span></a></li>
+<li><a href="krovat.html"><span class="nm">Функциональная кровать Lojer</span><span class="go">›</span></a></li>
+<li><a href="mashina.html"><span class="nm">Моечно-дезинфекционная машина AT-OS AWD655-8</span><span class="go">›</span></a></li>
+<li><a href="panda-ires.html"><span class="nm">Panda iRes Warmer (GE HealthCare)</span><span class="go">›</span></a></li>
+<li><a href="monitor-epm12.html"><span class="nm">Монитор Mindray ePM 12</span><span class="go">›</span></a></li>
+<li><a href="morozilnik.html"><span class="nm">Морозильник ММШ-220-POZIS</span><span class="go">›</span></a></li>
+<li><a href="iris.html"><span class="nm">Аппарат «ИРИС»</span><span class="go">›</span></a></li>
+<li><a href="nasos-shpric.html"><span class="nm">Шприцевой насос Mindray BeneFusion SP1</span><span class="go">›</span></a></li>
+<li><a href="nasos.html"><span class="nm">Инфузионный насос Mindray BeneFusion VP1</span><span class="go">›</span></a></li>
+<li><a href="obluchatel.html"><span class="nm">Бактерицидный облучатель ОРБ-2Н (Pozis)</span><span class="go">›</span></a></li>
+<li><a href="obogrevatel.html"><span class="nm">Неонатальный обогреватель УАМЗ</span><span class="go">›</span></a></li>
+<li><a href="svet-yd01.html"><span class="nm">Хирургический светильник YD01-II</span><span class="go">›</span></a></li>
+<li><a href="svet-armed.html"><span class="nm">Светильник медицинский Армед ЛД-2-ЛЕД</span><span class="go">›</span></a></li>
+<li><a href="svet-hyled.html"><span class="nm">Хирургический светильник Mindray HyLED 9600</span><span class="go">›</span></a></li>
+<li><a href="fetalny-monitor.html"><span class="nm">Фетальный монитор Sonicaid Team</span><span class="go">›</span></a></li>
+<li><a href="holod-byt.html"><span class="nm">Холодильник бытовой</span><span class="go">›</span></a></li>
+<li><a href="holodilnik.html"><span class="nm">Медицинский холодильник POZIS Paracels</span><span class="go">›</span></a></li>
+</ul>
+<script>
+var q = document.getElementById('q'), list = document.getElementById('list');
+q.addEventListener('input', function () {
+  var v = q.value.trim().toLowerCase();
+  Array.prototype.forEach.call(list.children, function (li) {
+    li.style.display = li.textContent.toLowerCase().indexOf(v) !== -1 ? '' : 'none';
+  });
+});
+</script>
+<footer>Внутренняя инструкция для персонала.</footer>
+</div>
+</body>
+</html>
